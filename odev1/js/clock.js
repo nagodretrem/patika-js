@@ -1,4 +1,8 @@
+let name = prompt("Adınızı giriniz: ");
+document.querySelector("#myName").innerHTML = `${name} `;
+
 function showTime(){
+
     let today = new Date();
     let hours = today.getHours();
     let minutes = today.getMinutes();
